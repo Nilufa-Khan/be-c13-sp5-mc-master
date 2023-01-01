@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/trackDetail/api")
+
 public class TrackController {
     private TrackService trackService;
     public TrackController(TrackService trackService){
